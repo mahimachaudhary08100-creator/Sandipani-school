@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sandipani School</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#263238;
+}
+
+header{
+    background:#123c69;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:32px;
+}
+
+nav{
+    background:#f5a623;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:#172b4d;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:white;
+}
+
+.hero{
+    background:linear-gradient(120deg,#123c69,#2878a5);
+    color:white;
+    text-align:center;
+    padding:90px 20px;
+}
+
+.hero h2{
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:18px;
+    line-height:1.7;
+}
+
+.btn{
+    display:inline-block;
+    background:#f5a623;
+    color:#172b4d;
+    padding:12px 25px;
+    margin-top:25px;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:bold;
+}
+
+section{
+    padding:55px 8%;
+}
+
+section h2{
+    text-align:center;
+    color:#123c69;
+    margin-bottom:30px;
+    font-size:30px;
+}
+
+.about{
+    line-height:1.9;
+    text-align:justify;
+    font-size:17px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:22px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    text-align:center;
+    border-radius:12px;
+    box-shadow:0 3px 12px #00000015;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-7px);
+}
+
+.card h3{
+    color:#e18a00;
+    margin-bottom:12px;
+}
+
+.card p{
+    line-height:1.6;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    height:190px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+.contact{
+    background:#e5eef8;
+    text-align:center;
+    line-height:2;
+}
+
+footer{
+    background:#123c69;
+    color:white;
+    text-align:center;
+    padding:22px;
+}
+
+@media(max-width:600px){
+    header h1{font-size:25px;}
+    nav a{
+        display:inline-block;
+        margin:6px;
+        font-size:14px;
+    }
+    .hero h2{font-size:29px;}
+    section{padding:40px 6%;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🏫 SANDIPANI SCHOOL</h1>
+    <p>ज्ञान • अनुशासन • संस्कार • सफलता</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#history">History</a>
+    <a href="#education">Education</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+    <h2>Welcome to Sandipani School</h2>
+    <p>
+        शिक्षा ही सफलता की पहली सीढ़ी है।<br>
+        हमारा उद्देश्य विद्यार्थियों का सर्वांगीण विकास करना है।
+    </p>
+    <a href="#about" class="btn">Explore More</a>
+</div>
+
+<section id="about">
+    <h2>स्कूल का परिचय</h2>
+    <p class="about">
+        संदीपनी स्कूल एक शैक्षणिक संस्थान है जिसका मुख्य उद्देश्य
+        विद्यार्थियों को अच्छी शिक्षा प्रदान करना तथा उनका
+        मानसिक, शारीरिक और नैतिक विकास करना है।
+        स्कूल में विद्यार्थियों को ज्ञान के साथ-साथ अनुशासन,
+        आत्मविश्वास, ईमानदारी और अच्छे संस्कारों का महत्व
+        सिखाया जाता है।
+    </p>
+</section>
+
+<section id="history">
+    <h2>स्कूल का इतिहास</h2>
+    <p class="about">
+        संदीपनी नाम भारतीय गुरु-शिष्य परंपरा से प्रेरित है।
+        महर्षि संदीपनी भगवान श्रीकृष्ण के गुरु माने जाते हैं।
+        भारतीय संस्कृति में गुरु का स्थान बहुत महत्वपूर्ण है।
+        इसी प्रेरणा से शिक्षा, संस्कार और ज्ञान के महत्व को
+        दर्शाने के लिए संदीपनी नाम का विशेष महत्व है।
+        स्कूल की वास्तविक स्थापना और इतिहास की जानकारी
+        संबंधित शाखा के अनुसार यहाँ जोड़ी जानी चाहिए।
+    </p>
+</section>
+
+<section id="education">
+    <h2>शिक्षा पद्धति</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>📚 गुणवत्तापूर्ण शिक्षा</h3>
+            <p>विद्यार्थियों को ज्ञान और समझ पर आधारित शिक्षा देना।</p>
+        </div>
+
+        <div class="card">
+            <h3>💻 डिजिटल शिक्षा</h3>
+            <p>तकनीक के माध्यम से पढ़ाई को आसान और रोचक बनाना।</p>
+        </div>
+
+        <div class="card">
+            <h3>🎯 व्यक्तित्व विकास</h3>
+            <p>आत्मविश्वास और नेतृत्व क्षमता को बढ़ावा देना।</p>
+        </div>
+    </div>
+</section>
+
+<section id="facilities">
+    <h2>स्कूल की सुविधाएँ</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>📖 पुस्तकालय</h3>
+            <p>अध्ययन के लिए पुस्तकों की सुविधा।</p>
+        </div>
+
+        <div class="card">
+            <h3>🔬 विज्ञान प्रयोगशाला</h3>
+            <p>प्रयोग करके विज्ञान सीखने की सुविधा।</p>
+        </div>
+
+        <div class="card">
+            <h3>⚽ खेलकूद</h3>
+            <p>शारीरिक विकास के लिए खेल गतिविधियाँ।</p>
+        </div>
+
+        <div class="card">
+            <h3>🖥️ कंप्यूटर लैब</h3>
+            <p>कंप्यूटर और तकनीकी ज्ञान की शिक्षा।</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>स्कूल की गतिविधियाँ</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>🎭 सांस्कृतिक कार्यक्रम</h3>
+            <p>नृत्य, संगीत और नाटक जैसी गतिविधियाँ।</p>
+        </div>
+
+        <div class="card">
+            <h3>🏆 खेल प्रतियोगिताएँ</h3>
+            <p>खेलों के माध्यम से टीम भावना का विकास।</p>
+        </div>
+
+        <div class="card">
+            <h3>🌳 पर्यावरण जागरूकता</h3>
+            <p>पेड़-पौधों और पर्यावरण की सुरक्षा का संदेश।</p>
+        </div>
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>स्कूल गैलरी</h2>
+    <div class="gallery">
+        <img src="https://placehold.co/400x250?text=School+Building" alt="School Building">
+        <img src="https://placehold.co/400x250?text=Classroom" alt="Classroom">
+        <img src="https://placehold.co/400x250?text=Sports" alt="Sports">
+        <img src="https://placehold.co/400x250?text=Library" alt="Library">
+    </div>
+</section>
+
+<section>
+    <h2>हमारा उद्देश्य</h2>
+    <p class="about">
+        हमारा उद्देश्य विद्यार्थियों को केवल किताबी ज्ञान देना
+        नहीं, बल्कि उन्हें एक अच्छा नागरिक बनाना भी है।
+        हम शिक्षा, अनुशासन, नैतिक मूल्यों और रचनात्मकता के
+        महत्व को समझते हैं।
+    </p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>संपर्क करें</h2>
+    <p><b>School Name:</b> Sandipani School</p>
+    <p><b>Address:</b> यहाँ स्कूल का पूरा पता लिखें</p>
+    <p><b>Email:</b> यहाँ स्कूल का ईमेल लिखें</p>
+    <p><b>Phone:</b> यहाँ संपर्क नंबर लिखें</p>
+</section>
+
+<footer>
+    <p>© 2026 Sandipani School | All Rights Reserved</p>
+    <p>Designed by Student</p>
+</footer>
+
+</body>
+</html>
